@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<style type="text/css">
+  *{
+    box-sizing: border-box;
+  }
+ 
+  .column{
+    float: left;
+    width: 30px;
+    padding: 5px;
+  }
+  .row::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .hey {
+  color: #39bfbd;
+  font-weight: 500;
+  font-size: 1.5em;
+  position: absolute;
+  right: 10px;
+  border-bottom: 2px solid #39bfbd;
+
+}
+.text{
+  word-break: keep-all;
+  position: absolute;
+  bottom: 300px;
+  left: 500px;
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: green;
+}
+</style>
+<script>
+function myFunction() {
+  document.body.style.backgroundColor = "#f3f3f3";
+  document.body.style.backgroundImage = "url('back1.jpg')";
+  document.body.style.backgroundRepeat= "no-repeat";
+
+
+}
+</script>
+</head>
+<body onload="myFunction();">
+  <div class="wrapper">
+    <nav>
+      
+      <div class="content">
+      <div class="logo"><img src="apple.png" width="100" height="60"></div>
+        <ul class="links">
+          <li><a href="Home.html"><i class="fa fa-home" >&nbsp; &nbsp;</i>Home</a></li>
+          <li><a href="#"><i class="fa fa-handshake-o"></i>&nbsp; &nbsp;About</a></li>
+          <li>
+            <a href="#" class="desktop-link"><i class="fa fa-user-circle-o">&nbsp; &nbsp;</i>Employee</a>
+            
+            <label for="show-features">Employee</label>
+            <ul>
+              <li><a href="http://localhost/Mini_project/Registration/register.php"><i class="fa fa-plus"></i>Add Employee</a></li>
+              <li><a href="http://localhost/Attendance/display/data.php"><i class="fa fa-eye"></i>Manage Employee</a></li>
+              
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link"><i class="fa fa-users">&nbsp; &nbsp;</i>Attendance</a>
+            
+            <label for="show-services">Attendance</label>
+            <ul>
+              <li><a href="http://localhost/DigitalAttendanceSystem/DigitalAttendanceSystem/index.php"><i class="fa fa-angellist" ></i>Daily Attendance</a></li>
+              <li><a href="http://localhost/DigitalAttendanceSystem/DigitalAttendanceSystem/view_attendance.php"><i class="fa fa-eye"></i>Leave</a></li>
+              <li>
+                <a href="#" class="desktop-link">More Items</a>
+                
+                <label for="show-items">More Items</label>
+                <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="fa fa-address-book" >&nbsp; &nbsp;</i>Admin</a></li>
+          <li><a href="#"><i class="fa fa-phone"></i>&nbsp; &nbsp;Contact</a>
+        </ul>
+      </div>
+      <a href="#" class="hey"><strong> Say Hi!</strong></a>
+      
+    </nav>
+  </div>
+  
+
+  <div class="dummy-text">
+    <h2>Welcome.</h2>
+    <div class="image">
+    <img src="mic.jpg">
+  </div>
+  <div class="text">
+    <p>Technology is nothing.What's important is that you have a faith in people that they're basically good and smart,and if you give them tools,they'll do wonderful things with them.</p>
+    <p>&nbsp; &nbsp; &nbsp;-Steve Jobs</p>
+  </div>
+
+     
+          
+
+  </div>
+
+</body>
+</html>
